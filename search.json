@@ -12,5 +12,12 @@
     "title": "joyce-blog",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "posts/2026-03-23-07180e71e9a4.html",
+    "href": "posts/2026-03-23-07180e71e9a4.html",
+    "title": "你好，势阶！",
+    "section": "",
+    "text": "Hello World!\nhello\n\\[\n\\exp(\\mathrm{i}\\theta)=\\cos\\theta+\\mathrm{i}\\sin\\theta\n\\]"
   }
 ]
