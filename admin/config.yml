@@ -3,7 +3,7 @@ backend:
   repo: Joyce-Peng-GitHub/joyce-blog
   branch: main
   auth_type: pkce
-  app_id: WE_WILL_GET_THIS_LATER
+  app_id: Iv23li6tl32WPPchx1JP
 
 media_folder: "images"
 public_folder: "/joyce/images"
