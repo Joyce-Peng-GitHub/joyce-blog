@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "admin/"
+    - "images/"
+
+website:
+  title: "joyce-blog"
+  site-url: "https://blogs.ritelt.com/joyce"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+

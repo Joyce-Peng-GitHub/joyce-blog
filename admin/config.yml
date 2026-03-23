@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: Joyce-Peng-GitHub/joyce-blog
+  branch: main
+  auth_type: pkce
+  app_id: WE_WILL_GET_THIS_LATER
+
+media_folder: "images"
+public_folder: "/joyce/images"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "posts"
+    create: true
+    extension: "qmd"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{uuid_short}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
